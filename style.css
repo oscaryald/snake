@@ -1,0 +1,45 @@
+.wrapper{
+  margin: 0 auto;
+  width: 270px;
+  text-align: center;
+  font: normal  16px 'Arial';
+}
+.points {
+  font-weight: bold;
+  font-size: 20px;
+}
+ul{
+    display: flex;
+    width: 270px;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+  }
+  .list-item{
+    list-style-type:none;
+    width:20px;
+    height: 20px;
+    border-radius: 5px;
+    background:#eee;
+    margin:2px;
+    
+  }
+  li.data-s{
+    background:#333;
+    transition: .3s all;
+  }
+.eat{
+  animation: shadow .9s infinite;
+  background:rgb(255, 69, 0);
+}
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 7px rgba(255, 69, 0, .2);
+    }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 7px rgba(255, 69, 0, 0.2);
+    }
+} 
